@@ -1,33 +1,31 @@
-HELP.md
-target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Backend (Spring Boot)
+backend/target/
+backend/*.class
+backend/*.jar
+backend/*.war
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Mobile (Flutter)
+mobile/**/doc/api/
+mobile/**/ios/Flutter/.last_build_id
+mobile/**/ios/Flutter/Flutter.framework
+mobile/**/ios/Flutter/Flutter.podspec
+mobile/**/ios/Flutter/Generated.xcconfig
+mobile/**/ios/Flutter/ephemeral/
+mobile/**/ios/Runner/GeneratedPluginRegistrant.*
+mobile/**/android/.gradle
+mobile/**/android/captures/
+mobile/**/android/gradlew
+mobile/**/android/gradlew.bat
+mobile/**/android/local.properties
+mobile/**/android/**/gradle-wrapper.jar
+mobile/**/android/.gradle
+mobile/**/android/captures/
+mobile/**/android/key.properties
+mobile/**/.dart_tool/
+mobile/**/build/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# General
+.DS_Store
+*.log
+.idea/
 .vscode/
